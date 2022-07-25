@@ -232,7 +232,7 @@ int[,,] CreatureRandomArray(int rows, int column, int cub, int min, int max) // 
                     }
                 }
                 array[i, j, l] = numbers;
-                Console.Write(array[i, j, l] + "  ");
+                Console.Write($" {array[i, j, l]} ( {i}, {j}, {l} )" );
             }
         }
         Console.WriteLine();
